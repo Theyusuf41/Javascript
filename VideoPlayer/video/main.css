@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.main-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.video-player{
+    max-width: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.video{
+    width: 100%;
+}
+.playBtn{
+    padding: 1rem 1rem;
+    background-color: #000;
+    
+}

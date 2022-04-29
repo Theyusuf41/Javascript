@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+h2, h4{
+    text-transform: uppercase;
+}
+button{
+    padding: 0.5rem 0.5rem;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 40rem;
+    height: 40rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.underline{
+    height: 0.25rem;
+    width: 5rem;
+    background: hsl(205, 78%, 60%);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#person-img{
+    padding: 2rem;
+    border-radius: 70%;
+    max-width: 18rem;
+    max-height: 18rem;
+}
+#person-img:hover{
+    transform: translateY(0.3rem);
+}
+button i{
+    color: hsl(205, 78%, 60%);
+    font-size: 1.2rem;
+}
+#author{
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+#job{
+    text-transform: uppercase;
+    color:hsl(205, 78%, 60%);
+    margin-bottom: 1rem;
+}
+#info{
+    font-size: 1.1rem;
+}

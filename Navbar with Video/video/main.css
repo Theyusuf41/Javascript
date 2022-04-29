@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-video{
+    filter: grayscale(1);
+    height: 100vh;
+}
+.video-player{
+    position: relative;
+    height: fit-content;
+
+}
+.player-controls{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+.playBtn{
+    font-size: 2rem;
+    background-color: transparent;
+    padding: 1rem 1rem;
+    border: none;
+}

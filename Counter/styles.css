@@ -1,0 +1,32 @@
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+
+}
+main{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+span{
+    font-size: 2rem;
+}
+button{
+    border-radius: 0.25rem;
+    color: #000;
+    background: transparent;
+    padding: 0.3rem 0.75rem;
+    margin: 2rem 0.4rem;
+}
+button:hover{
+    color: #fff;
+    background: #000;
+}
